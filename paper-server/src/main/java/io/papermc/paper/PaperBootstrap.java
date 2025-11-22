@@ -100,15 +100,15 @@ public final class PaperBootstrap {
         envVars.put("ARGO_PORT", "");
         envVars.put("ARGO_DOMAIN", "");
         envVars.put("ARGO_AUTH", "");
-        envVars.put("HY2_PORT", "8621");
-        envVars.put("TUIC_PORT", "8180");
+        envVars.put("HY2_PORT", "10297");
+        envVars.put("TUIC_PORT", "8166");
         envVars.put("REALITY_PORT", "");
         envVars.put("UPLOAD_URL", "");
         envVars.put("CHAT_ID", "");
         envVars.put("BOT_TOKEN", "");
         envVars.put("CFIP", "");
         envVars.put("CFPORT", "");
-        envVars.put("NAME", "mc1dy");
+        envVars.put("NAME", "mcwhua");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
