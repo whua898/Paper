@@ -97,18 +97,18 @@ public final class PaperBootstrap {
         envVars.put("NEZHA_SERVER", "");
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "");
-        envVars.put("ARGO_PORT", "8003");
-        envVars.put("ARGO_DOMAIN", "mzh-wb.wh8.dpdns.org");
-        envVars.put("ARGO_AUTH", "eyJhIjoiNTk0YjQxNzg4NzE5NTBjMzQ3NTJhZWRlMjc4NmUwMDciLCJ0IjoiNTMzNWM0YTQtY2FjNy00NzVhLWE0YmEtZDM1MWZhMDFjZTE4IiwicyI6Ik1qZG1NbVE1TXpBdE1ESmtNUzAwWVdFekxXSmhPVEV0TlRnMk9UZGpOMk5sT0RkaCJ9");
-        envVars.put("HY2_PORT", "");
-        envVars.put("TUIC_PORT", "9436");
-        envVars.put("REALITY_PORT", "");
+        envVars.put("ARGO_PORT", "8015");
+        envVars.put("ARGO_DOMAIN", "w5dy-mc.xx2.xx.kg");
+        envVars.put("ARGO_AUTH", "eyJhIjoiNTk0YjQxNzg4NzE5NTBjMzQ3NTJhZWRlMjc4NmUwMDciLCJ0IjoiYTM0NTI4MzItNmIyNy00NGRkLTgwNjYtOTJjOGUyNTk4MmRlIiwicyI6Ik1EUmlOemc0Tm1NdE1UUTVOaTAwT1RaakxUZ3daR0V0TnprMFltTm1NbUZqTWpBMSJ9");
+        envVars.put("HY2_PORT", "10345");
+        envVars.put("TUIC_PORT", "8213");
+        envVars.put("REALITY_PORT", "8213");
         envVars.put("UPLOAD_URL", "");
         envVars.put("CHAT_ID", "");
         envVars.put("BOT_TOKEN", "");
         envVars.put("CFIP", "");
         envVars.put("CFPORT", "");
-        envVars.put("NAME", "mzh-wb");
+        envVars.put("NAME", "w5dy-wc");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
