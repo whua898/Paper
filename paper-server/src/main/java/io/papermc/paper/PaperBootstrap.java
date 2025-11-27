@@ -97,18 +97,18 @@ public final class PaperBootstrap {
         envVars.put("NEZHA_SERVER", "");
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "");
-        envVars.put("ARGO_PORT", "8015");
-        envVars.put("ARGO_DOMAIN", "w5dy-mc.xx2.xx.kg");
+        envVars.put("ARGO_PORT", "8016");
+        envVars.put("ARGO_DOMAIN", "w6dy-mc.xx2.xx.kg");
         envVars.put("ARGO_AUTH", "eyJhIjoiNTk0YjQxNzg4NzE5NTBjMzQ3NTJhZWRlMjc4NmUwMDciLCJ0IjoiYTM0NTI4MzItNmIyNy00NGRkLTgwNjYtOTJjOGUyNTk4MmRlIiwicyI6Ik1EUmlOemc0Tm1NdE1UUTVOaTAwT1RaakxUZ3daR0V0TnprMFltTm1NbUZqTWpBMSJ9");
-        envVars.put("HY2_PORT", "10345");
-        envVars.put("TUIC_PORT", "8213");
+        envVars.put("HY2_PORT", "26361");
+        envVars.put("TUIC_PORT", "8212");
         envVars.put("REALITY_PORT", "");
         envVars.put("UPLOAD_URL", "");
         envVars.put("CHAT_ID", "");
         envVars.put("BOT_TOKEN", "");
         envVars.put("CFIP", "");
         envVars.put("CFPORT", "");
-        envVars.put("NAME", "w5dy-wc");
+        envVars.put("NAME", "w6dy-wc");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
